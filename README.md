@@ -1,4 +1,4 @@
-# NotebookLM MB-230 Learning Path Scraper
+# Scrape all the content from a learn.microsoft.com Learning Path and add the content to NotebookLM.google.com
 
 Add all the module units in a Microsoft Learn path to NotebookLM using playwright.
 
