@@ -1,20 +1,18 @@
 # Scrape all the content from a learn.microsoft.com Learning Path and add the content to NotebookLM.google.com
 
-Add all the module units in a Microsoft Learn path to NotebookLM using playwright.
+Add all the module units from a Microsoft Learn path to NotebookLM by using playwright to grab the content links.
 
 ## Prerequisites
-
 - Node.js
 - A Google account with access to NotebookLM
 
-## Setup
-
+## Usage
 1. Install dependencies:
 ```bash
 npm install
 ```
 
-2. Configure Chrome:
+2. Launch Chrome:
 The script uses Chromium's remote debugging capabilities to interact with your authenticated browser session. You need to start Chrome with remote debugging enabled:
 
 ```powershell
@@ -23,11 +21,8 @@ Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" 
 
 3. Sign in to your Google account:
 - Once Chrome launches, sign in to your Google account
-- Navigate to NotebookLM (https://notebooklm.google.com/)
 
-## Usage
-
-1. Run the script:
+4. Run the script:
 ```bash
 npm run start  
 ```
