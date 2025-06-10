@@ -1,0 +1,19 @@
+{
+  "name": "notebooklm-mb230",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx src/add-learning-path.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.30",
+    "typescript": "^5.8.3"
+  }
+}
